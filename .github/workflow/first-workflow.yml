@@ -7,5 +7,11 @@ jobs:
       run-on: ubuntu-latest
 
       steps:
-        - name: print message
-          run: echo "Hello student github action is working"
+        - name: show date
+          run: date
+
+        - name: show current folder
+          run: pwd
+
+        - name: show files
+          run: ls -la  
